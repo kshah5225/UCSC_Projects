@@ -1,1 +1,0 @@
-I, Kunal Shah, have read and understood the Winter CSE12 syllabus and Personal Responsibility Document. kgshah 10 January 2021
