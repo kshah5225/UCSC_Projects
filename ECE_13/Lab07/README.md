@@ -1,0 +1,11 @@
+Author:Kunal Shah kgshah@ucsc.edu
+Collaborators:None
+
+**Summary:**
+This lab shows a efficient way to compute information on time. Handling this data with events to ensure not wasting reasources and ontop of that we ensure even better reasource management by using a state machine to make sure we only process the nessecary inputs to outputs. The state machine is also very scaleable if you need to add new steps between states. I find this approach to programming to be very useful and this project helped me gain a better grasp on making Oled GUIs. Overall this project is largly helpful I just wish I had 1 or 2 more days to work on this project due to the long weekend I got stuck for an extended period of time and the modified office hours notification for some reason sent to me 2 days late.
+
+**Approach:**
+After Reading the Entire Manuel I felt very lost but the bottom section helped guide me by making the entire display function first(ofcourse after Leds.h and other struct items). After I fully tested out the display I made all of the lab work but I didnt use the State Machine and only used Event checkers so I had to re-make this entire lab using the state machine aster i carelessely forgot about it after getting confused. I visited a Lab section and got unstuck and progressed significantly afterwards. This process of making a readout of my data first is really helpful fo getting my code to work as expected. If I were to do this Lab section again I would try harder to get a hold of a tutor to help me. Lastly I implemented the Flashing screen extra credit by adding it to the Reset pending state instead of making a new state because this state didnt seem to conflict in any way and I prevent increaseing complexity.
+
+**Conclusion:**
+In the end my Lab has met all criteria including Extra Credit. There were a lot of weird issues stemming from my old code setting events and states when they should not be doing so. To make this Lab better I would make the State Machine Diagram more clear as some parts are left up to guessing. A Lab section was nessecary for my understanding of how to implement a state machine with the event driven system. I definitly could have done much better given an extra 2 days but at this point I am satisfied given the time taken to complete this lab.

@@ -1,0 +1,11 @@
+Author:Kunal Shah kgshah@ucsc.edu
+Collaborators:None
+
+Summary:
+In Lab3 we created a Matrix Calculator that can check if 2 matricies are equal, adds, multiplies,scalar adds, scalar multiplies, trace,transpose, submatrix,determinant,and matrix inverse.
+
+Approach:
+I started out with the matrix print function so i could solve any bugs as they came up which really worked well for me so i could get a detailed readout of what exactly went wrong when code went wrong instead of a test that woouldnt have been useful in telling me exactly what went wrong. I couldnt really figure out how to make all of then functions scaleable but most of them are like the matrix print function but since they are programed not to take anything but a 3x3 I never got to testing it. The only ones that were not designed scaleable were the determinant ones because I would do a recursive call to that but again it wont accept 2x2 matricies, therefore it was no use trying to find the determinant in a scaleable way, similar problem with inverse as I want to find det of 2x2 matrix but since i cannot edit the function prototype I cannot tell it to accept all matrix sizes.One thing that really didnt work well was this 30min period where I could not fix an error just to find out that the font for l and 1 are the same in this program at my zoom so I couldn't tell the difference.
+
+Feedback:
+Something that confused me a lot at the start of the lab there is a severe lack of communication on what MatrixMath.c file should look like and I would like there to me more information on that. Also I spent more time on tediously making the tests for this lab and if that is the desired outcome then that is fine but if its not then maybe you should provide at least some of the tests to also help standardize some of the grading. Lastly I wish there was a better place/way to get feedback on my assignments like there was in cse30 where tutors would leave comments on what test my code failed/what I lost points on because I am on lab3 now and I still dont know what I did wrong on lab1 though its possible I missed some communication on this.

@@ -1,0 +1,11 @@
+Author:Kunal Shah kgshah@ucsc.edu
+Collaborators:Aadhav S.
+
+**Summary:**
+I Find this Lab important in the way that we make efficient code in order to react to external stimulus or I/O. Learning how to use the I/O shield is important and understanding what these registers do and what they are for is helpful in the understanding of Microprossers in general. How you can set up pins as input or output and some practical applications of using XOR in code
+
+**Approach:**
+This Lab I did this Lab in parts because often one portion of the lab manuel only pretained to one portion of the code so while I read the whole thing once before hand it was really helpful to read a spesfic section over again before doing that section of code. I needed a lot of help form the TA's this time due to the Lab manuel leaving many things too vague and I had to have TA's explain certian things to me seperate from the lab manuel. I think the correct approach to this lab was taken by me. My only regreat was not being able to attend the monday and tuesday lab sections due to transportation issues. I went home on the weekend to meet with friends/family for the superbowl but my parents and our only car got stuck in yosemite so I cant get back on campus as of right now and the TA section I needed on monday was cancelled.
+
+**Conclusion:**
+I spent approximatly 30 hours on this lab mostly being confused on the manuel and I got nowhere near where I would have liked. I think the buttons section of this Lab was absurdly hard due to not understanding how the Lab creators wanted me to debounce. This debounce issue fully ruins what is otherwise a very informative and helpful lab. I thik this is the perfect amount of handholding to confuse the student where you tell them what the code should look like but not how it should work. The points distribution is far too heavily weighed on the buttons section of this lab and more points should be given for the other parts of this lab. Overall the Lab Manuel needs to help the students more or else this assignemnt is impossible without TA's which I dont believe should be the case for any lab.

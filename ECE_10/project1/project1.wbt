@@ -1,0 +1,53 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2513417539576778 -0.36687237140548734 -0.8956740399368468 4.543972431427341
+  position 0.1249900772554385 -1.559169382445174 1.2656032716667687
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 1 0 0
+  floorSize 3 3
+}
+DEF MY_ROBOT E-puck {
+  controller "p1_controller"
+}
+Solid {
+  translation 0.42 0 0.06
+  children [
+    DEF BOX1 Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  boundingObject USE BOX1
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.4 0 0.06
+  children [
+    DEF BOX1 Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.7 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE BOX1
+  physics Physics {
+  }
+}

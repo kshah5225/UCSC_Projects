@@ -1,0 +1,5 @@
+Author:Kunal Shah kgshah@ucsc.edu
+Collaborators:None
+Q1:When scanf() is used it prompts the user for an input of some kind ment to be input using the keyboard
+Q2:We dont use printf or scanf from inside the functions because it will mess with the graders
+Q3:This lab took 14hrs, Not because the lab was especially hard but because the instructions are often unclear and when they are clear they later contradict themselfs for example they never gave us an example output for average as far as I could see so i have to guess what that looks like and for contradiction one example is where the tan colored screenshot shows no echo message but later in the instructions we are told to make a message twice despite it not being there in the example. I went to the discord and they cleared up to ignore the example but that would mean I wouldnt be able to get as precise of an output as I would want. So I have to say overall This was significantly harder than expected because of the manuel but the coding itself was only a tad bit harder than expected.
